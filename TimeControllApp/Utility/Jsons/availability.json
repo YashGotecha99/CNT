@@ -1,0 +1,56 @@
+{
+    "availability_request": {
+        "id": 0,
+        "client_id": 0,
+        "user_id": 0,
+        "from_date": "",
+        "to_date": "",
+        "status": "pending",
+        "request_type": "weekly",
+        "availability": [
+            {
+                "isAllDay": true,
+                "comment": "",
+                "for_date": "",
+                "availability_type": "available"
+            },
+            {
+                "isAllDay": true,
+                "availability_type": "available",
+                "for_date": "",
+                "comment": "",
+            },
+            {
+                "isAllDay": true,
+                "availability_type": "available",
+                "comment": "",
+                "for_date": ""
+            },
+            {
+                "isAllDay": true,
+                "availability_type": "available",
+                "comment": "",
+                "for_date": ""
+            },
+            {
+                "isAllDay": true,
+                "comment": "",
+                "for_date": "",
+                "availability_type": "available"
+            },
+            {
+                "isAllDay": true,
+                "for_date": "",
+                "availability_type": "available",
+                "comment": ""
+            },
+            {
+                "isAllDay": true,
+                "availability_type": "available",
+                "for_date": "",
+                "comment": ""
+            }
+        ],
+        "comment": null,
+    }
+}

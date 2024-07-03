@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Light.ttf">
+            <string>Inter-Light</string>
+        </array>
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="153" id="KGk-i7-Jjw" customClass="RegiterMilesTVC" customModule="TimeControllApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="153"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="360" height="153"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZG1-N2-FU1">
+                        <rect key="frame" x="0.0" y="0.0" width="360" height="153"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Register Miles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8OI-JT-wbE">
+                                <rect key="frame" x="20.000000000000007" y="16" width="88.666666666666686" height="17"/>
+                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vUo-zo-1nN">
+                                <rect key="frame" x="20" y="39" width="320" height="104"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Distance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1q-hJ-3wZ">
+                                        <rect key="frame" x="10" y="10" width="47" height="15"/>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="18miles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVd-4m-Hse">
+                                        <rect key="frame" x="10" y="27" width="42" height="15"/>
+                                        <fontDescription key="fontDescription" name="Inter-Light" family="Inter" pointSize="12"/>
+                                        <color key="textColor" red="0.11764705882352941" green="0.11764705882352941" blue="0.14117647058823529" alpha="0.40133397108843538" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSP-Iq-3Hv">
+                                        <rect key="frame" x="10" y="58" width="28" height="14"/>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traklestinget, 18, Moss..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O74-IR-2mB">
+                                        <rect key="frame" x="10" y="74" width="139.66666666666666" height="14"/>
+                                        <fontDescription key="fontDescription" name="Inter-Light" family="Inter" pointSize="12"/>
+                                        <color key="textColor" red="0.11764705882352941" green="0.11764705882352941" blue="0.14117647058823529" alpha="0.40497448979591838" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yNW-PK-tPi">
+                                        <rect key="frame" x="159.66666666666666" y="53" width="1" height="40"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.053225977891156462" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1" id="XRT-LF-Qre"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXt-92-dRa">
+                                        <rect key="frame" x="170.66666666666666" y="58" width="12.666666666666657" height="14"/>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traklestinget, 18, Moss..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOD-lu-Yo2">
+                                        <rect key="frame" x="170.66666666666663" y="74" width="139.33333333333337" height="14"/>
+                                        <fontDescription key="fontDescription" name="Inter-Light" family="Inter" pointSize="12"/>
+                                        <color key="textColor" red="0.1176470588" green="0.1176470588" blue="0.14117647059999999" alpha="0.4049744898" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="O74-IR-2mB" firstAttribute="top" secondItem="sSP-Iq-3Hv" secondAttribute="bottom" constant="2" id="3eL-49-aOP"/>
+                                    <constraint firstItem="yNW-PK-tPi" firstAttribute="leading" secondItem="O74-IR-2mB" secondAttribute="trailing" constant="10" id="4Jm-xb-XgM"/>
+                                    <constraint firstItem="UXt-92-dRa" firstAttribute="leading" secondItem="yNW-PK-tPi" secondAttribute="trailing" constant="10" id="BT2-ZI-310"/>
+                                    <constraint firstItem="O74-IR-2mB" firstAttribute="leading" secondItem="sSP-Iq-3Hv" secondAttribute="leading" id="Dxf-St-8BA"/>
+                                    <constraint firstItem="G1q-hJ-3wZ" firstAttribute="leading" secondItem="vUo-zo-1nN" secondAttribute="leading" constant="10" id="FGs-nX-4vS"/>
+                                    <constraint firstItem="sSP-Iq-3Hv" firstAttribute="top" secondItem="cVd-4m-Hse" secondAttribute="bottom" constant="15" id="Jwr-eR-Zrj"/>
+                                    <constraint firstItem="yNW-PK-tPi" firstAttribute="top" secondItem="cVd-4m-Hse" secondAttribute="bottom" constant="10" id="MEn-0P-mLg"/>
+                                    <constraint firstItem="yNW-PK-tPi" firstAttribute="centerX" secondItem="vUo-zo-1nN" secondAttribute="centerX" id="NGe-yL-xiC"/>
+                                    <constraint firstItem="O74-IR-2mB" firstAttribute="bottom" secondItem="yNW-PK-tPi" secondAttribute="bottom" constant="-5" id="OgR-28-3hf"/>
+                                    <constraint firstItem="UXt-92-dRa" firstAttribute="top" secondItem="sSP-Iq-3Hv" secondAttribute="top" id="P3k-4S-fJw"/>
+                                    <constraint firstItem="sSP-Iq-3Hv" firstAttribute="leading" secondItem="cVd-4m-Hse" secondAttribute="leading" id="UvN-Hv-mab"/>
+                                    <constraint firstItem="cVd-4m-Hse" firstAttribute="leading" secondItem="G1q-hJ-3wZ" secondAttribute="leading" id="b18-F4-RrE"/>
+                                    <constraint firstAttribute="bottom" secondItem="yNW-PK-tPi" secondAttribute="bottom" constant="11" id="bBB-wT-L4K"/>
+                                    <constraint firstItem="dOD-lu-Yo2" firstAttribute="leading" secondItem="UXt-92-dRa" secondAttribute="leading" id="cTn-na-jH1"/>
+                                    <constraint firstItem="dOD-lu-Yo2" firstAttribute="bottom" secondItem="O74-IR-2mB" secondAttribute="bottom" id="hAa-44-qO3"/>
+                                    <constraint firstAttribute="trailing" secondItem="dOD-lu-Yo2" secondAttribute="trailing" constant="10" id="lzc-bJ-HZn"/>
+                                    <constraint firstItem="cVd-4m-Hse" firstAttribute="top" secondItem="G1q-hJ-3wZ" secondAttribute="bottom" constant="2" id="qmR-CR-7N3"/>
+                                    <constraint firstItem="dOD-lu-Yo2" firstAttribute="top" secondItem="UXt-92-dRa" secondAttribute="bottom" constant="2" id="yrJ-su-Myk"/>
+                                    <constraint firstItem="G1q-hJ-3wZ" firstAttribute="top" secondItem="vUo-zo-1nN" secondAttribute="top" constant="10" id="zbp-lY-Yqk"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8OI-JT-wbE" firstAttribute="top" secondItem="ZG1-N2-FU1" secondAttribute="top" constant="16" id="Ji9-6Z-IKu"/>
+                            <constraint firstItem="vUo-zo-1nN" firstAttribute="top" secondItem="8OI-JT-wbE" secondAttribute="bottom" constant="6" id="LuH-U3-DJa"/>
+                            <constraint firstItem="8OI-JT-wbE" firstAttribute="leading" secondItem="ZG1-N2-FU1" secondAttribute="leading" constant="20" id="N4R-n4-AEN"/>
+                            <constraint firstAttribute="trailing" secondItem="vUo-zo-1nN" secondAttribute="trailing" constant="20" id="hpB-QY-h1G"/>
+                            <constraint firstItem="vUo-zo-1nN" firstAttribute="leading" secondItem="ZG1-N2-FU1" secondAttribute="leading" constant="20" id="qp2-jp-DhN"/>
+                            <constraint firstAttribute="bottom" secondItem="vUo-zo-1nN" secondAttribute="bottom" constant="10" id="u8H-VH-oWA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ZG1-N2-FU1" secondAttribute="bottom" id="6j4-Fp-2Rk"/>
+                    <constraint firstAttribute="trailing" secondItem="ZG1-N2-FU1" secondAttribute="trailing" id="EMB-DI-W0x"/>
+                    <constraint firstItem="ZG1-N2-FU1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="N4j-GQ-evl"/>
+                    <constraint firstItem="ZG1-N2-FU1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="RxG-tm-g1r"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblDistance" destination="cVd-4m-Hse" id="Pkn-mv-xlX"/>
+                <outlet property="lblFrom" destination="O74-IR-2mB" id="rFi-Dq-pFz"/>
+                <outlet property="lblTo" destination="dOD-lu-Yo2" id="wkZ-HZ-ZoK"/>
+                <outlet property="staticDistanceFromLbl" destination="sSP-Iq-3Hv" id="hgK-bI-OZp"/>
+                <outlet property="staticDistanceLbl" destination="G1q-hJ-3wZ" id="B1a-K0-s5L"/>
+                <outlet property="staticDistanceToLbl" destination="UXt-92-dRa" id="kKO-ik-ufg"/>
+                <outlet property="staticRegisterMilesLbl" destination="8OI-JT-wbE" id="e9J-LN-eEV"/>
+            </connections>
+            <point key="canvasLocation" x="166.66666666666669" y="106.13839285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

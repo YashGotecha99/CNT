@@ -1,0 +1,10 @@
+[
+    {
+        "code": "paid",
+        "name": "Paid",
+    },
+    {
+        "code": "nonpaid",
+        "name": "Not Paid",
+    }
+]

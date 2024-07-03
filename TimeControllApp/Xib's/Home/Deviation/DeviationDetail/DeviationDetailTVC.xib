@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="153" id="KGk-i7-Jjw" customClass="DeviationDetailTVC" customModule="TimeControllApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="474" height="153"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="474" height="153"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gDI-A1-ekL">
+                        <rect key="frame" x="0.0" y="0.0" width="474" height="153"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="bnT-2l-tl7">
+                                <rect key="frame" x="0.0" y="0.0" width="474" height="153"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="0.0" id="NB4-Bf-7m2">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="bnT-2l-tl7" secondAttribute="trailing" id="VWq-2T-iMT"/>
+                            <constraint firstAttribute="bottom" secondItem="bnT-2l-tl7" secondAttribute="bottom" id="bHZ-W4-foe"/>
+                            <constraint firstItem="bnT-2l-tl7" firstAttribute="top" secondItem="gDI-A1-ekL" secondAttribute="top" id="jkE-uw-bHv"/>
+                            <constraint firstItem="bnT-2l-tl7" firstAttribute="leading" secondItem="gDI-A1-ekL" secondAttribute="leading" id="r4a-2k-FcV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gDI-A1-ekL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="HYt-Lw-SRj"/>
+                    <constraint firstAttribute="bottom" secondItem="gDI-A1-ekL" secondAttribute="bottom" id="Z0s-Vz-cix"/>
+                    <constraint firstAttribute="trailing" secondItem="gDI-A1-ekL" secondAttribute="trailing" id="cq4-MD-l2t"/>
+                    <constraint firstItem="gDI-A1-ekL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="kvq-Li-RY2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="deviationDetailCollection" destination="bnT-2l-tl7" id="LjN-KX-Xuf"/>
+            </connections>
+            <point key="canvasLocation" x="249.27536231884059" y="114.84375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

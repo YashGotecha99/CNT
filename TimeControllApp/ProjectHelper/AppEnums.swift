@@ -1,0 +1,18 @@
+//
+//  AppEnums.swift
+//  TimeControllApp
+//
+//  Created by mukesh on 03/07/22.
+//
+
+import Foundation
+
+//MARK: - TABLE_VIEW_CELL
+enum TABLE_VIEW_CELL: String {
+    case StartWorkTVC,ReportTVC,WorkLogTVC,AllWorkLogTVC,WorkHourTVC,MyFilesTVC,DocumentTVC,ProfileTVC,KidsTVC,SideMenuTVC,ChecklistTVC,AddWorkDocTaskTVC,AddOnWorkTVC,UploadOtherDocWorkTVC,DeviationTVC,DeviationDetailTVC,DeviationDocTVC,DeviationCreateDetailTVC,ShiftRequestTVC,NotificationTypeTVC,RegiterMilesTVC,PassengerTVC,OtherExpenseTVC,ExtraWorkTVC,ShiftRequestDetailTVC,ChangeLanguageTVC,PendingRequestTVC,TasksTVC,VacationAbsenceTVC,LeaveStatusTVC,EmployeeListTVC,ReportListTVC,ProjectListTVC,TaskListTVC,SSReceiveLocationTVC,SendMessageTVC,ReceiveTextMessageTVC,SSSendLocationTVC,CheckListStatusTVC,PowerOffCheckListTVC,ScheduleListTVC,OverTimes,ScheduleListMemberTVC,SchedueDayListTVC,SwapEmployeeTVC,SwapTradesTVC,SwapTradesPMTVC,AvailabilityListTVC,AvailabilityTypeTVC,AvailabilityCalendarTVC,AvailabilityDayTVC,UpToGrabsListTVC,MainElementTableTVC,SecoundElementTableTVC,MemberShiftTVC,EmployeeListShiftTVC,AvailabilityListPMTVC,DeviationProjectTVC,SendMessageAttachmentsTVC,ReceiveTextMessageAttachmentTVC,VacationTypeTVC,ObligatoryDocumentTVC,ChildListTVC,SelectRegion, ScheduleListMemberColleagueTVC
+}
+
+//MARK: - TABLE_VIEW_CELL
+enum COLLECTION_VIEW_CELL: String {
+    case DeviationDetailCVC,DeviationDocCVC,PassangerCVC,OverTimeCVC,vbSpokenLanguageCollectionViewCell,vbEquipmentCollectionViewCell,vbAssignProjectsCollectionViewCell,vbSelectProjectCollectionViewCell,vbUploadImageCollectionViewCell,UploadDocumentsCVC
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b6a-da-Zb4">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashBackgound" translatesAutoresizingMaskIntoConstraints="NO" id="KXn-AC-Ajh">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchLogo" translatesAutoresizingMaskIntoConstraints="NO" id="UIn-Xg-XI8">
+                                        <rect key="frame" x="148.5" y="325" width="125" height="138"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="125" id="7zg-Sr-LeW"/>
+                                            <constraint firstAttribute="height" constant="138" id="es8-7H-fdd"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Time&amp;Control" translatesAutoresizingMaskIntoConstraints="NO" id="bnA-Dp-ZQc">
+                                        <rect key="frame" x="92" y="478" width="238" height="41"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="238" id="kkL-im-jGC"/>
+                                            <constraint firstAttribute="height" constant="41" id="ze4-EM-gOH"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="UIn-Xg-XI8" firstAttribute="centerX" secondItem="b6a-da-Zb4" secondAttribute="centerX" multiplier="1.02" id="B8m-v1-I48"/>
+                                    <constraint firstItem="bnA-Dp-ZQc" firstAttribute="centerX" secondItem="UIn-Xg-XI8" secondAttribute="centerX" id="Brp-FE-hwv"/>
+                                    <constraint firstAttribute="bottom" secondItem="KXn-AC-Ajh" secondAttribute="bottom" id="C69-hC-fP0"/>
+                                    <constraint firstAttribute="trailing" secondItem="KXn-AC-Ajh" secondAttribute="trailing" id="bfK-eC-YhR"/>
+                                    <constraint firstItem="UIn-Xg-XI8" firstAttribute="centerY" secondItem="b6a-da-Zb4" secondAttribute="centerY" multiplier="0.88" id="jeY-r5-D0C"/>
+                                    <constraint firstItem="bnA-Dp-ZQc" firstAttribute="top" secondItem="UIn-Xg-XI8" secondAttribute="bottom" constant="15" id="jxd-xe-2VF"/>
+                                    <constraint firstItem="KXn-AC-Ajh" firstAttribute="leading" secondItem="b6a-da-Zb4" secondAttribute="leading" id="p3L-7w-tCM"/>
+                                    <constraint firstItem="KXn-AC-Ajh" firstAttribute="top" secondItem="b6a-da-Zb4" secondAttribute="top" id="wZC-y0-OvF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="b6a-da-Zb4" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="UAW-aF-QxL"/>
+                            <constraint firstItem="b6a-da-Zb4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="k8n-mp-evN"/>
+                            <constraint firstAttribute="bottom" secondItem="b6a-da-Zb4" secondAttribute="bottom" id="u94-jq-MJG"/>
+                            <constraint firstItem="b6a-da-Zb4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="xRg-NN-psz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Time&amp;Control" width="235.5" height="27"/>
+        <image name="launchLogo" width="144" height="138"/>
+        <image name="splashBackgound" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,14 @@
+[
+    {
+        "code": "self",
+        "name": "Sick Leaves"
+    },
+    {
+        "code": "doctor",
+        "name": "Doctor Clarification"
+    },
+    {
+        "code": "child",
+        "name": "Child Sickness"
+    }
+]
